@@ -11,6 +11,20 @@ router.get('/', (req, res) => {
   })
 });
 
+router.post('/', (req, res) => {
+  const newEntry= new PostsModele({
+    author: req.body.author,
+    message: req.body.message
+
+      });
+
+ newEntry.save((err, docs) => {
+    if (!err) res.send(docs);
+    else console.log('Error creating new data : ' + err);
+  })
+
+});
+
 
 module.exports = router;
 
