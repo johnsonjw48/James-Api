@@ -1,4 +1,4 @@
-# Création d’une API en Node JS avec le framework Express
+# Création d’une API en Node JS avec le framework Express.js
 
 Dans ce projet, j'ai creer une API avec Node JS en utilisant comme SGBD MongoDB. 
 
@@ -20,7 +20,7 @@ Ce projet est structurer en MVC (Modèle, Vue Contrôleur).
  
 * Node JS 
 * MongoDB
-* Express
+* Express.js
 
 
 
