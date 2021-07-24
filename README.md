@@ -26,5 +26,5 @@ Ce projet est structurer en MVC (Modèle, Vue Contrôleur).
 
 ### Comment lancer le projet? 
 
-* Exécutez npm install [Technologie name] pour installer toutes les dépendances
-* Exécutez npm start pour pour démarrer
+* Exécutez  `npm install` pour installer toutes les dépendances
+* Exécutez  `npm start`  pour pour démarrer
